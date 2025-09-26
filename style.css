@@ -192,6 +192,7 @@ main p {
     Position: fixed;
     top: unset;
     bottom: 0;
+    justify-content: center;
 
     > ul {
       padding: 0;
@@ -253,5 +254,6 @@ main p {
   }
 
   
+
 
 }
