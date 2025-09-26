@@ -192,13 +192,13 @@ main p {
     Position: fixed;
     top: unset;
     bottom: 0;
-    align-items: center;
 
     > ul {
       padding: 0;
       display: grid;
       grid-auto-columns: 60px;
       grid-auto-flow: column;
+      justify-content: center;
       align-items: center;
       overflow-x: auto;
     }
@@ -257,4 +257,5 @@ main p {
 
 
 }
+
 
